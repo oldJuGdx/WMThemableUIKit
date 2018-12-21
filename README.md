@@ -1,2 +1,2 @@
 # wmthemable
-Apply theme to all your UI native or inherited classes
+Apply theme to all your native or inherited UI classes
