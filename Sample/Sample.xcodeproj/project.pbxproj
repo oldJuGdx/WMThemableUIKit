@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6397FF0521D938CE00C7BE92 /* WMThemableUIKIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397FF0421D938CE00C7BE92 /* WMThemableUIKIt.swift */; };
-		6397FF2D21D9733000C7BE92 /* WMThemableUIKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6397FF2C21D9733000C7BE92 /* WMThemableUIKit.podspec */; };
-		63C0F2E821D9362800203FCB /* WMThemableUIKIt.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C0F2E621D9362800203FCB /* WMThemableUIKIt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6397FF1321D971A700C7BE92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397FF1221D971A700C7BE92 /* AppDelegate.swift */; };
+		6397FF1521D971A700C7BE92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397FF1421D971A700C7BE92 /* ViewController.swift */; };
+		6397FF1821D971A700C7BE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6397FF1621D971A700C7BE92 /* Main.storyboard */; };
+		6397FF1A21D971A900C7BE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6397FF1921D971A900C7BE92 /* Assets.xcassets */; };
+		6397FF1D21D971A900C7BE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6397FF1B21D971A900C7BE92 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6397FF0421D938CE00C7BE92 /* WMThemableUIKIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMThemableUIKIt.swift; sourceTree = "<group>"; };
-		6397FF2C21D9733000C7BE92 /* WMThemableUIKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WMThemableUIKit.podspec; sourceTree = SOURCE_ROOT; };
-		63C0F2E321D9362800203FCB /* WMThemableUIKIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WMThemableUIKIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63C0F2E621D9362800203FCB /* WMThemableUIKIt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMThemableUIKIt.h; sourceTree = "<group>"; };
-		63C0F2E721D9362800203FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6397FF0F21D971A700C7BE92 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6397FF1221D971A700C7BE92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6397FF1421D971A700C7BE92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6397FF1721D971A700C7BE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6397FF1921D971A900C7BE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6397FF1C21D971A900C7BE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6397FF1E21D971A900C7BE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63C0F2E021D9362800203FCB /* Frameworks */ = {
+		6397FF0C21D971A700C7BE92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,145 +35,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6397FF0121D937DE00C7BE92 /* Informations */ = {
+		6397FF0621D971A700C7BE92 = {
 			isa = PBXGroup;
 			children = (
-				63C0F2E621D9362800203FCB /* WMThemableUIKIt.h */,
-				63C0F2E721D9362800203FCB /* Info.plist */,
-				6397FF2C21D9733000C7BE92 /* WMThemableUIKit.podspec */,
-			);
-			path = Informations;
-			sourceTree = "<group>";
-		};
-		6397FF0221D9388800C7BE92 /* Interface */ = {
-			isa = PBXGroup;
-			children = (
-				6397FF0421D938CE00C7BE92 /* WMThemableUIKIt.swift */,
-			);
-			path = Interface;
-			sourceTree = "<group>";
-		};
-		6397FF0321D9389100C7BE92 /* Implementation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Implementation;
-			sourceTree = "<group>";
-		};
-		63C0F2D921D9362800203FCB = {
-			isa = PBXGroup;
-			children = (
-				63C0F2E521D9362800203FCB /* WMThemableUIKIt */,
-				63C0F2E421D9362800203FCB /* Products */,
+				6397FF1121D971A700C7BE92 /* Sample */,
+				6397FF1021D971A700C7BE92 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		63C0F2E421D9362800203FCB /* Products */ = {
+		6397FF1021D971A700C7BE92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63C0F2E321D9362800203FCB /* WMThemableUIKIt.framework */,
+				6397FF0F21D971A700C7BE92 /* Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63C0F2E521D9362800203FCB /* WMThemableUIKIt */ = {
+		6397FF1121D971A700C7BE92 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				6397FF0221D9388800C7BE92 /* Interface */,
-				6397FF0321D9389100C7BE92 /* Implementation */,
-				6397FF0121D937DE00C7BE92 /* Informations */,
+				6397FF1221D971A700C7BE92 /* AppDelegate.swift */,
+				6397FF1421D971A700C7BE92 /* ViewController.swift */,
+				6397FF1621D971A700C7BE92 /* Main.storyboard */,
+				6397FF1921D971A900C7BE92 /* Assets.xcassets */,
+				6397FF1B21D971A900C7BE92 /* LaunchScreen.storyboard */,
+				6397FF1E21D971A900C7BE92 /* Info.plist */,
 			);
-			path = WMThemableUIKIt;
+			path = Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		63C0F2DE21D9362800203FCB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63C0F2E821D9362800203FCB /* WMThemableUIKIt.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		63C0F2E221D9362800203FCB /* WMThemableUIKIt */ = {
+		6397FF0E21D971A700C7BE92 /* Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63C0F2EB21D9362800203FCB /* Build configuration list for PBXNativeTarget "WMThemableUIKIt" */;
+			buildConfigurationList = 6397FF2121D971A900C7BE92 /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
-				63C0F2DE21D9362800203FCB /* Headers */,
-				63C0F2DF21D9362800203FCB /* Sources */,
-				63C0F2E021D9362800203FCB /* Frameworks */,
-				63C0F2E121D9362800203FCB /* Resources */,
+				6397FF0B21D971A700C7BE92 /* Sources */,
+				6397FF0C21D971A700C7BE92 /* Frameworks */,
+				6397FF0D21D971A700C7BE92 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WMThemableUIKIt;
-			productName = WMThemableUIKIt;
-			productReference = 63C0F2E321D9362800203FCB /* WMThemableUIKIt.framework */;
-			productType = "com.apple.product-type.framework";
+			name = Sample;
+			productName = Sample;
+			productReference = 6397FF0F21D971A700C7BE92 /* Sample.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63C0F2DA21D9362800203FCB /* Project object */ = {
+		6397FF0721D971A700C7BE92 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Weamo;
 				TargetAttributes = {
-					63C0F2E221D9362800203FCB = {
+					6397FF0E21D971A700C7BE92 = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
 					};
 				};
 			};
-			buildConfigurationList = 63C0F2DD21D9362800203FCB /* Build configuration list for PBXProject "WMThemableUIKIt" */;
+			buildConfigurationList = 6397FF0A21D971A700C7BE92 /* Build configuration list for PBXProject "Sample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 63C0F2D921D9362800203FCB;
-			productRefGroup = 63C0F2E421D9362800203FCB /* Products */;
+			mainGroup = 6397FF0621D971A700C7BE92;
+			productRefGroup = 6397FF1021D971A700C7BE92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63C0F2E221D9362800203FCB /* WMThemableUIKIt */,
+				6397FF0E21D971A700C7BE92 /* Sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63C0F2E121D9362800203FCB /* Resources */ = {
+		6397FF0D21D971A700C7BE92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6397FF2D21D9733000C7BE92 /* WMThemableUIKit.podspec in Resources */,
+				6397FF1D21D971A900C7BE92 /* LaunchScreen.storyboard in Resources */,
+				6397FF1A21D971A900C7BE92 /* Assets.xcassets in Resources */,
+				6397FF1821D971A700C7BE92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63C0F2DF21D9362800203FCB /* Sources */ = {
+		6397FF0B21D971A700C7BE92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6397FF0521D938CE00C7BE92 /* WMThemableUIKIt.swift in Sources */,
+				6397FF1521D971A700C7BE92 /* ViewController.swift in Sources */,
+				6397FF1321D971A700C7BE92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		6397FF1621D971A700C7BE92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6397FF1721D971A700C7BE92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6397FF1B21D971A900C7BE92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6397FF1C21D971A900C7BE92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		63C0F2E921D9362800203FCB /* Debug */ = {
+		6397FF1F21D971A900C7BE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,7 +196,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -228,12 +220,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		63C0F2EA21D9362800203FCB /* Release */ = {
+		6397FF2021D971A900C7BE92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,7 +257,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -286,59 +275,40 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		63C0F2EC21D9362800203FCB /* Debug */ = {
+		6397FF2221D971A900C7BE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 575UFW6T9S;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/WMThemableUIKIt/Informations/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weamo.inhouse.WMThemableUIKIt;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weamo.inhouse.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		63C0F2ED21D9362800203FCB /* Release */ = {
+		6397FF2321D971A900C7BE92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 575UFW6T9S;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/WMThemableUIKIt/Informations/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weamo.inhouse.WMThemableUIKIt;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weamo.inhouse.Sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -347,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63C0F2DD21D9362800203FCB /* Build configuration list for PBXProject "WMThemableUIKIt" */ = {
+		6397FF0A21D971A700C7BE92 /* Build configuration list for PBXProject "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63C0F2E921D9362800203FCB /* Debug */,
-				63C0F2EA21D9362800203FCB /* Release */,
+				6397FF1F21D971A900C7BE92 /* Debug */,
+				6397FF2021D971A900C7BE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63C0F2EB21D9362800203FCB /* Build configuration list for PBXNativeTarget "WMThemableUIKIt" */ = {
+		6397FF2121D971A900C7BE92 /* Build configuration list for PBXNativeTarget "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63C0F2EC21D9362800203FCB /* Debug */,
-				63C0F2ED21D9362800203FCB /* Release */,
+				6397FF2221D971A900C7BE92 /* Debug */,
+				6397FF2321D971A900C7BE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63C0F2DA21D9362800203FCB /* Project object */;
+	rootObject = 6397FF0721D971A700C7BE92 /* Project object */;
 }
