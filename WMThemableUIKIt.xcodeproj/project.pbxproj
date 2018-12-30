@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6397FF0521D938CE00C7BE92 /* WMThemableUIKIt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6397FF0421D938CE00C7BE92 /* WMThemableUIKIt.swift */; };
 		63C0F2E821D9362800203FCB /* WMThemableUIKIt.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C0F2E621D9362800203FCB /* WMThemableUIKIt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6397FF0421D938CE00C7BE92 /* WMThemableUIKIt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMThemableUIKIt.swift; sourceTree = "<group>"; };
 		63C0F2E321D9362800203FCB /* WMThemableUIKIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WMThemableUIKIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C0F2E621D9362800203FCB /* WMThemableUIKIt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMThemableUIKIt.h; sourceTree = "<group>"; };
 		63C0F2E721D9362800203FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +38,21 @@
 			path = Informations;
 			sourceTree = "<group>";
 		};
+		6397FF0221D9388800C7BE92 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6397FF0421D938CE00C7BE92 /* WMThemableUIKIt.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		6397FF0321D9389100C7BE92 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
 		63C0F2D921D9362800203FCB = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +72,8 @@
 		63C0F2E521D9362800203FCB /* WMThemableUIKIt */ = {
 			isa = PBXGroup;
 			children = (
+				6397FF0221D9388800C7BE92 /* Interface */,
+				6397FF0321D9389100C7BE92 /* Implementation */,
 				6397FF0121D937DE00C7BE92 /* Informations */,
 			);
 			path = WMThemableUIKIt;
@@ -103,6 +122,7 @@
 				TargetAttributes = {
 					63C0F2E221D9362800203FCB = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -138,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6397FF0521D938CE00C7BE92 /* WMThemableUIKIt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +290,7 @@
 		63C0F2EC21D9362800203FCB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -286,6 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.weamo.inhouse.WMThemableUIKIt;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,6 +317,7 @@
 		63C0F2ED21D9362800203FCB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
