@@ -27,6 +27,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6397FF0121D937DE00C7BE92 /* Informations */ = {
+			isa = PBXGroup;
+			children = (
+				63C0F2E621D9362800203FCB /* WMThemableUIKIt.h */,
+				63C0F2E721D9362800203FCB /* Info.plist */,
+			);
+			path = Informations;
+			sourceTree = "<group>";
+		};
 		63C0F2D921D9362800203FCB = {
 			isa = PBXGroup;
 			children = (
@@ -46,8 +55,7 @@
 		63C0F2E521D9362800203FCB /* WMThemableUIKIt */ = {
 			isa = PBXGroup;
 			children = (
-				63C0F2E621D9362800203FCB /* WMThemableUIKIt.h */,
-				63C0F2E721D9362800203FCB /* Info.plist */,
+				6397FF0121D937DE00C7BE92 /* Informations */,
 			);
 			path = WMThemableUIKIt;
 			sourceTree = "<group>";
